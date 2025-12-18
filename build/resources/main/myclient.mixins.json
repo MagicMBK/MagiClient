@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "com.myclient.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "client": [
+        "ClientPlayerEntityMixin",
+        "MinecraftClientMixin",
+        "KeyboardMixin",
+        "InGameHudMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

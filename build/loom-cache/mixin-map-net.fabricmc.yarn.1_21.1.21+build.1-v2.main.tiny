@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	com/myclient/mixin/InGameHudMixin	Lnet/minecraft/client/MinecraftClient;	client	field_2035
+FIELD	com/myclient/mixin/KeyboardMixin	Lnet/minecraft/client/MinecraftClient;	client	field_1678

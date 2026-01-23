@@ -1,7 +1,7 @@
 package com.myclient.event;
 
 public class Event {
-    private boolean cancelled = false;
+    private boolean cancelled;
     
     public boolean isCancelled() {
         return cancelled;

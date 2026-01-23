@@ -1,5 +1,8 @@
 {
   "mappings": {
+    "com/myclient/mixin/ClientConnectionMixin": {
+      "send(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/PacketCallbacks;)V": "Lnet/minecraft/class_2535;method_10752(Lnet/minecraft/class_2596;Lnet/minecraft/class_7648;)V"
+    },
     "com/myclient/mixin/ClientPlayerEntityMixin": {
       "tick": "Lnet/minecraft/class_746;method_5773()V"
     },
@@ -11,10 +14,16 @@
     },
     "com/myclient/mixin/MinecraftClientMixin": {
       "tick": "Lnet/minecraft/class_310;method_1574()V"
+    },
+    "com/myclient/mixin/PacketAccessor": {
+      "onGround": "field_29179:Z"
     }
   },
   "data": {
     "named:intermediary": {
+      "com/myclient/mixin/ClientConnectionMixin": {
+        "send(Lnet/minecraft/network/packet/Packet;Lnet/minecraft/network/PacketCallbacks;)V": "Lnet/minecraft/class_2535;method_10752(Lnet/minecraft/class_2596;Lnet/minecraft/class_7648;)V"
+      },
       "com/myclient/mixin/ClientPlayerEntityMixin": {
         "tick": "Lnet/minecraft/class_746;method_5773()V"
       },
@@ -26,6 +35,9 @@
       },
       "com/myclient/mixin/MinecraftClientMixin": {
         "tick": "Lnet/minecraft/class_310;method_1574()V"
+      },
+      "com/myclient/mixin/PacketAccessor": {
+        "onGround": "field_29179:Z"
       }
     }
   }

@@ -6,7 +6,9 @@
         "ClientPlayerEntityMixin",
         "MinecraftClientMixin",
         "KeyboardMixin",
-        "InGameHudMixin"
+        "InGameHudMixin",
+        "ClientConnectionMixin",
+        "PacketAccessor"
     ],
     "injectors": {
         "defaultRequire": 1
